@@ -5,9 +5,18 @@
 - Familiarize yourself with Xcode, Swift and Playgrounds
 - Learn how to write functions, control statements
 
-## Xcode setup
+## Vocabulary
 
-![Xcode panels](Xcode-panels.jpg)
+- Comments
+- Function
+- Type(s)
+- Playgrounds
+- Return value
+- Anonymous functions
+
+## Playgrounds
+
+Playgrounds allow you to write Swift code and experiment without building an entire app. You can build cool features, experiment and execute your code quickly.
 
 ## Functions
 
