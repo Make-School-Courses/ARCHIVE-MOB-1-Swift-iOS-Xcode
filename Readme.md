@@ -15,7 +15,7 @@ Welcome to iOS1! This class introduces you the basics of iOS development. We wil
 - #### Week 1
     - [Intro](00-Intro)
     - [Xcode & Swift Setup](01-Xcode-Swift-Setup)
-    - [Types, Variables, Functions and Operators](02-Types-Variables-Functions-Operators)
+    - [Variables, Functions and Operators](02-Variables-Functions-Operators)
     - [Control Flow , Scope & Pattern Matching](03-Control-Flow-&-Pattern-Matching)
 
 - #### Week 2
