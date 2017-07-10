@@ -1,4 +1,4 @@
-# Types, Variables, Functions & Operators
+# Variables, Functions & Operators
 
 ## Objectives
 
@@ -7,6 +7,7 @@
 - Learn how to write functions, control statements
 
 ## Reading
+- [Swift Playgrounds - Variables](Variables.playground)
 - Apple App Development iBook - Chapter 1.2 pg20
 
 ## Vocabulary
@@ -29,28 +30,6 @@
 
 Playgrounds allow you to write Swift code and experiment without building an entire app. You can build cool features, experiment and execute your code quickly.
 
-
-## Variables
-A variable in Swift is declared with the ```var``` keyword. 
-When a value is a variable, it can be changed from one value to another, as long as its of the same type.
-
-<script src="//repl.it/embed/JVeb/0.js"></script>
-
-### Immutabilty
-
-Variables marked with ```let``` become *constants*. This means you cannot change its original value.
-
-<script src="//repl.it/embed/JVdl/0.js"></script>
-
-
-Swift is a strongly typed language. What that means is that when you assign a value to a variable, it cannot be changed from its original type.
-
-<script src="//repl.it/embed/JVeC/0.js"></script>
-
-
-### The case for immutability
-
-Why does Swift bother so much about immutability? Why would you want data that never changes when data is always changing?
 
 
 ## Swift Types - Enums, Structs, Classes, Protocols
@@ -78,11 +57,6 @@ public struct Int : SignedInteger, Comparable, Equatable {}
 ```
 
 Swift's standard library (a collection of useful functionality we use when building software in swift) is also made up of these basic types.
-
-
-
-
-
 
 
 ## Challenges
