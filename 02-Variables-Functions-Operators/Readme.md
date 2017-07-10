@@ -6,30 +6,24 @@
 - Develop an intuition on when to use classes, structs, enums and protocols
 - Learn how to write functions, control statements
 
-## Reading
-- [Swift Playgrounds - Variables](Variables.playground)
-- Apple App Development iBook - Chapter 1.2 pg20
-
 ## Vocabulary
 
 - Comments
 - Variable
-- Function
 - Type(s)
-- Tuple
 - Playgrounds
-- Return value
-- Anonymous functions
-- Structs
-- Enums
-- Class
-- Protocols
-- (Im)Mutable
+- (Im)mutable
+
+## Class Materials
+
+Download and go through:
+
+- [Swift Playgrounds - Variables](Variables.playground)
+
 
 ## Playgrounds
 
 Playgrounds allow you to write Swift code and experiment without building an entire app. You can build cool features, experiment and execute your code quickly.
-
 
 
 ## Swift Types - Enums, Structs, Classes, Protocols
@@ -63,7 +57,12 @@ Swift's standard library (a collection of useful functionality we use when build
 
 
 
-## Functions
+## Functions & Closures
+
+Download and go through:
+
+[Swift Playgrounds - Functions ](Functions.playground)
+
 
 Functions in Swift are denoted by the func keyword. Swift is a strongly typed language, hence functions are differentiated by arity (number of parameters) as well as the type of each parameter.
 
@@ -99,7 +98,7 @@ square(5)
 ## Operators
 
 
-## Questions
+## Review
 
 1. What is the difference between a class and a struct?
 2. When will you use a class vs a struct?
@@ -107,6 +106,6 @@ square(5)
 
 ## Challenges
 
-Download the playground below and complete the following challenges
+Download the playground below and complete the following challenges:
 
-    1. Write a swift function that takes in an integer and prints its square
+[Variables & Functions Playground Challenge](Variables-Functions-Challenge.playground)
