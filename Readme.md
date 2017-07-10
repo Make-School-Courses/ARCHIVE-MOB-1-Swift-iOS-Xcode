@@ -15,20 +15,19 @@ Welcome to iOS1! This class introduces you the basics of iOS development. We wil
 - #### Week 1
     - [Intro](00-Intro)
     - [Xcode & Swift Setup](01-Xcode-Swift-Setup)
-    - [Variables, Functions, Operators](02-Variables-Functions-Operators)
-    - [Swift Types - Enums, Structs, Classes, Protocols](03-Swift-Types)
+    - [Types, Variables, Functions and Operators](02-Types-Variables-Functions-Operators)
+    - [Control Flow , Scope & Pattern Matching](03-Control-Flow-&-Pattern-Matching)
 
 - #### Week 2
-    - [Control Flow & Pattern Matching](03-Control-Flow-&-Pattern-Matching)
-    - [Intro to Autolayout](03-Intro-to-Autolayout)
-    - [Intro to Model-View-Controller Architecture in iOS](03-Intro-to-MVC)
-    - [Project - Tip Calculator](03-Tip-Calculator-Project)
+    - [Intro to XCode & Autolayout](04-Intro-To-XCode-&-Autolayout)
+    - [Intro to Model-View-Controller Architecture in iOS](05-Intro-to-MVC-iOS)
+    - [Project - Tip Calculator]()
 
 - #### Week 3
     - [Communication Patterns - Delegates](06-Communication-Patterns-Delegates)
     - [Communication Patterns - Callbacks](06-Communication-Patterns-Callbacks)
     - [Communication Patterns - Notifications](06-Communication-Patterns-Notifications)
-    - [Project - Mood Tracker](06-Mood-Tracker-Project)
+    - [Project - Mood Tracker]()
     
 - #### Week 4
     - [Intro to Object Oriented Programming](05-Intro-to-object-oriented-programming)
