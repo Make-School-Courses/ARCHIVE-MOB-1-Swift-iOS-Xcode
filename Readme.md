@@ -16,7 +16,7 @@ Welcome to iOS1! This class introduces you the basics of iOS development. We wil
     - [Intro](00-Intro)
     - [Xcode & Swift Setup](01-Xcode-Swift-Setup)
     - [Variables, Types & Functions](02-Variables-Types-Functions)
-    - [Control Flow ,Scope & Pattern Matching](03-Control-Flow-&-Pattern-Matching)
+    - [Control Flow, Scope & Pattern Matching](03-Control-Flow-&-Pattern-Matching)
 
 - #### Week 2
     - [Intro to XCode & Autolayout](04-Intro-To-XCode-&-Autolayout)
@@ -25,7 +25,7 @@ Welcome to iOS1! This class introduces you the basics of iOS development. We wil
 
 - #### Week 3
     - [Communication Patterns - Delegates](06-Communication-Patterns-Delegates)
-    - [Communication Patterns - Callbacks](06-Communication-Patterns-Callbacks)
+    - [Communication Patterns - Callbacks](07-Communication-Patterns-Callbacks)
     - [Communication Patterns - Notifications](06-Communication-Patterns-Notifications)
     - [Project - Mood Tracker]()
     
