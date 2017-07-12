@@ -9,7 +9,8 @@
 
 Go through:
 
-[Swift Playgrounds - Conditionals](Conditionals.playground)
+[Swift Playgrounds - Conditionals](conditionals.playground)
+[Swift Playgrounds - Enums & Pattern Matching](enums.playground)
 
 
 ## Challenges
