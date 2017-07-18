@@ -1,2 +1,4 @@
 # Communication Patterns - Delegates
 
+## Objectives
+

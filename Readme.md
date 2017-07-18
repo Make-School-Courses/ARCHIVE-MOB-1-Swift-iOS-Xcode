@@ -17,9 +17,11 @@ Welcome to iOS1! This class introduces you the basics of iOS development. We wil
     - [Xcode & Swift Setup](01-Xcode-Swift-Setup)
     - [Variables, Types & Functions](02-Variables-Types-Functions)
     - [Control Flow, Scope & Pattern Matching](03-Control-Flow-&-Pattern-Matching)
+    - [Classes, Structs, Enums & Protocols](04-Swift-Types)
 
 - #### Week 2
-    - [Intro to XCode & Autolayout](04-Intro-To-XCode-&-Autolayout)
+    - [Optionals](05-Optionals)
+    - [Intro to XCode & Autolayout](06-Intro-To-XCode-&-Autolayout)
     - [Intro to Model-View-Controller Architecture in iOS](05-Intro-to-MVC-iOS)
     - [Project - Tip Calculator]()
 

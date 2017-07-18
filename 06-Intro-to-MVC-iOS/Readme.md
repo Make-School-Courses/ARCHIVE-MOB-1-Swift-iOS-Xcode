@@ -7,4 +7,10 @@
 ## Vocabulary 
 
 
+## Challenges
+
+Complete the tip calculator tutorial:
+
+[Tip Calculator Project]()
+
 ## Resources

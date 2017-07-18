@@ -4,6 +4,7 @@
 
 - Learn about logic statements in Swift
 - Practice pattern matching in enums
+- Model state with enums
 
 ## Class Materials
 
