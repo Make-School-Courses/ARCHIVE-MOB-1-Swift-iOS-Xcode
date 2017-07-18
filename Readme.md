@@ -22,13 +22,13 @@ Welcome to iOS1! This class introduces you the basics of iOS development. We wil
 - #### Week 2
     - [Optionals](05-Optionals)
     - [Intro to XCode & Autolayout](06-Intro-To-XCode-&-Autolayout)
-    - [Intro to Model-View-Controller Architecture in iOS](05-Intro-to-MVC-iOS)
+    - [Intro to Model-View-Controller Architecture in iOS](07-Intro-to-MVC-iOS)
     - [Project - Tip Calculator]()
 
 - #### Week 3
-    - [Communication Patterns - Delegates](06-Communication-Patterns-Delegates)
-    - [Communication Patterns - Callbacks](07-Communication-Patterns-Callbacks)
-    - [Communication Patterns - Notifications](06-Communication-Patterns-Notifications)
+    - [Communication Patterns - Delegates](08-Communication-Patterns-Delegates)
+    - [Communication Patterns - Callbacks](09-Communication-Patterns-Callbacks)
+    - [Communication Patterns - Notifications](10-Communication-Patterns-Notifications)
     - [Project - Mood Tracker]()
     
 - #### Week 4
