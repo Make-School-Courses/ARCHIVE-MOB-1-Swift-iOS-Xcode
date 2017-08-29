@@ -1,14 +1,23 @@
-# iOS101 - Swift, iOS, Xcode
+# Swift, iOS & Xcode
 
 ## Course Overview
 
 Welcome to iOS1! This class introduces you the basics of iOS development. We will learn some basic to intermediate topics about Swift, Xcode and iOS.
 
-## Objectives & Competencies
+## Objectives
 
-1. Learn basic and intermediate Swift.
-2. Leverage Xcode to manage and debug projects.
-3. Get familiar with common iOS communication patterns.
+- Learn basic and intermediate Swift.
+- Leverage Xcode to manage and debug projects.
+- Get familiar with common iOS communication patterns.
+
+## Competencies
+
+- Write working Swift code
+- Make use of the delegate design pattern, including creating their own
+- Student use callbacks in their code
+- Should be able to Xcode’s debugging tools
+- Should be able to setup basic constraints with interface builder
+- Should be apply to apply the MVC pattern in their apps
 
 ## Course Schedule
 
