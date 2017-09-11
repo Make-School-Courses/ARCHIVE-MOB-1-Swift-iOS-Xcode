@@ -10,7 +10,6 @@
 
 - Comments
 - Variable
-- Type(s)
 - Playgrounds
 - (Im)mutable
 

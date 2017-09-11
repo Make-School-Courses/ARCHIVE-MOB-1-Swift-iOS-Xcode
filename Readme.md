@@ -28,7 +28,6 @@ Welcome to iOS1! This class introduces you the basics of iOS development. We wil
 ## Course Schedule
 
 - #### Week 1
-    - [Intro](00-Intro)
     - [Xcode & Swift Setup](01-Xcode-Swift-Setup)
     - [Variables, Types & Functions](02-Variables)
     - [Control Flow, Scope](03-Control-Flow-&-Pattern-Matching)
