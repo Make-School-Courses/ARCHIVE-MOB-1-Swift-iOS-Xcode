@@ -19,13 +19,19 @@ Welcome to iOS1! This class introduces you the basics of iOS development. We wil
 - Should be able to setup basic constraints with interface builder
 - Should be apply to apply the MVC pattern in their apps
 
+## Projects
+
+- Tip Calculator
+- Mood Tracker
+- Custom Project
+
 ## Course Schedule
 
 - #### Week 1
     - [Intro](00-Intro)
     - [Xcode & Swift Setup](01-Xcode-Swift-Setup)
-    - [Variables, Types & Functions](02-Variables-Types-Functions)
-    - [Control Flow, Scope & Pattern Matching](03-Control-Flow-&-Pattern-Matching)
+    - [Variables, Types & Functions](02-Variables)
+    - [Control Flow, Scope](03-Control-Flow-&-Pattern-Matching)
     - [Classes, Structs, Enums & Protocols](04-Swift-Types)
 
 - #### Week 2
@@ -51,8 +57,6 @@ Welcome to iOS1! This class introduces you the basics of iOS development. We wil
     - [Project - Custom Project - Week 5-6](10-Custom-Project)
     
 - #### Week 6
-    - [Intro to Protocol Oriented Programming](06-Protocol)
-    - [Protocol Oriented Programming - Protocol Extensions](06-Protocol-Extensions)
     - [Project - Custom Project - Week 5-6](10-Custom-Project)
     
 ## Evaluations
@@ -60,5 +64,5 @@ Welcome to iOS1! This class introduces you the basics of iOS development. We wil
 To pass the course, students will have:
 
     1. Completed all challenges.
-    2. Demonstrate clear understanding of Swift(variables, constants, functions, control flow, value vs reference types, communication patterns), object oriented & protocol oriented programming.
+    2. Demonstrate clear understanding of Swift(variables, constants, functions, control flow, value vs reference types, communication patterns), object oriented & protocol oriented programming, mvc, basic xcode/interface builder.
     

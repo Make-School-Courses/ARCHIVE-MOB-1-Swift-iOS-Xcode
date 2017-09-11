@@ -3,6 +3,8 @@
 ## Objectives
 
 - Identify closures and callbacks
+- Practice creating your own closures
+- Learn when to use a closure
 
 ## Mechanism vs Pattern
 

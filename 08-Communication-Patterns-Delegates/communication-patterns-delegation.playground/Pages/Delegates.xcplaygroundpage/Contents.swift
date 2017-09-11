@@ -1,8 +1,6 @@
 import UIKit
 import PlaygroundSupport
 
-PlaygroundPage.current.needsIndefiniteExecution = true
-
 /*:
  # Delegation
  
@@ -15,35 +13,60 @@ protocol TapDetectionDelegate: class {
 }
 
 /*:
-We constrain the protocol to classes because we are only going to use this protocol on classes
+We can constrain protocols to classes were we are only going to use this protocol on classes
  
  When creating a delegate, we only want a blueprint of the contract; functions that describe what information is being passed from the delegate
 */
 
-//: First - Two view controllers color change
-//: Second -
-import SpriteKit
-let frame = CGRect(x: 0, y: 0, width: 600, height: 300)
-let midPoint = CGPoint(x: frame.midX, y: frame.midY)
-var scene = SKScene(size: frame.size)
 
-let nyanCat = SKSpriteNode(imageNamed: "Nyancat")
-nyanCat.position = midPoint
+// MARK: - Delegates
+protocol BusStopDelegate: class {
+    func busTookOff(from stop: String)
+    func busReachedDestination(destination: String)
+}
 
-nyanCat.physicsBody?.affectedByGravity = true
+class Bus {
+    var name: String = "Market & 6th  Bus"
+    
+    weak var delegate: BusStopDelegate?
+    
+    func takeOff() {
+        delegate?.busTookOff(from: "Mission St & 9th St")
+    }
+    
+    func reachedDestination() {
+        delegate?.busReachedDestination(destination: "Valencia St & Guerro St")
+    }
+}
 
-//nyanCat.setScale(8.0)
-scene.addChild(nyanCat)
-let view = SKView(frame: frame)
-view.presentScene(scene)
+class BusControlCenter: BusStopDelegate {
+    
+    func busTookOff(from stop: String) {
+        print("Bus took off from \(stop)")
+    }
+    
+    func busReachedDestination(destination: String) {
+        print("Bus reached destination \(destination)")
+    }
+}
+
+let bus = Bus()
+let controlCenter = BusControlCenter()
+
+//:  ### Setting the bus's delegate to be the bus control center, which conform to the BusStopDelegate
+bus.delegate = controlCenter
+
+// Let the bus take off
+bus.takeOff()
+bus.reachedDestination()
+
+//: Lets take a look at how this looks like in a diagram
 
 
-PlaygroundPage.current.liveView = view
-
+//: ![Delegation](delegation.png)
 
 
 //: [Next Topic](@next)
 
-//PlaygroundPage.current.liveView = BlueViewController()
 
 

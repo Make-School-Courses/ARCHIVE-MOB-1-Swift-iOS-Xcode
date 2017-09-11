@@ -7,7 +7,7 @@ import PlaygroundSupport
 // Allows us to run http request and wait for them
 PlaygroundPage.current.needsIndefiniteExecution = true
 
-// 1) add function, adds two numbers a and b
+//: ## 1) add function, adds two numbers a and b
 // (Int, Int) -> Int
 func add(a: Int, b: Int) -> Int {
     return a + b
@@ -24,9 +24,11 @@ closureAdd(2, 3)
 // 2) Closure add
 
 
-// 3) transformNumber, Extend capabilites of functions (used in many stdlib methods)
-// trailing closure syntax
-// Closures can capture values
+/*:
+ ## 3) transformNumber, Extend capabilites of functions (used in many stdlib methods)
+  Trailing closure syntax
+  Closures can capture values
+*/
 func transformNumber(a: Int, operand: (Int) -> Int) -> Int {
     return operand(a)
 }
@@ -47,7 +49,7 @@ transformNumber(a: 3) { (x: Int) -> Int in
 
 
 
-// 4) iOS Example of closure, Completion blocks
+//: ## 4) iOS Example of closure, Completion blocks
 let url = URL(string: "https://www.gardeningknowhow.com/wp-content/uploads/2009/03/cabbage.jpg")!
 var imageView = UIImageView(frame: CGRect(x: 0, y: 0,width: 300, height: 280))
 
@@ -80,7 +82,7 @@ containerView.addSubview(imageView)
 PlaygroundPage.current.liveView = containerView
 
 // 5)
-// Standard lib examples (Sorted: by)
+//: ## Standard lib examples (Sorted: by)
 let numbers = [2, 4, 1, 8, 2, 5, 8, 1, 90, 33, 42]
 
 numbers.sorted { (a, b) -> Bool in
