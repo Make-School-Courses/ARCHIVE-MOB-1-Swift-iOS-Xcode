@@ -14,7 +14,7 @@
 
 Download and go through:
 
-[Swift Playgrounds - Functions ](Functions.playground)
+[Swift Playgrounds - Functions](Functions.playground)
 
 [Swift Playgrounds - Enums & Pattern Matching](enums.playground)
 

@@ -22,8 +22,8 @@ Welcome to iOS1! This class introduces you the basics of iOS development. We wil
 ## Projects
 
 - Tip Calculator
-- Mood Tracker
-- Tic Tac Toe
+- [Mood Tracker]
+- [Tic Tac Toe](Project-Tic-Tac-Toe)
 - Custom Project
 
 ## Course Schedule
@@ -51,6 +51,7 @@ Welcome to iOS1! This class introduces you the basics of iOS development. We wil
     - [Intro to Object Oriented Programming](05-Intro-to-object-oriented-programming)
     - [Object Oriented Programming - Inheritance](06-OOP-Inheritance)
     - [Object Oriented Programming - Encapsulation, Access Control](06-OOP-Encapsulation)
+    - [Project - Tic Tac Toe](Project-Tic-Tac-Toe)
     
 - #### Week 5
     - [Object Oriented Programming - Method Overloading](06-Method-Overloading)
