@@ -35,6 +35,7 @@ Welcome to iOS1! This class introduces you the basics of iOS development. We wil
 
 - #### Week 2
     - [Optionals](05-Optionals)
+    - [Memory Management in Swift]()
     - [Intro to XCode & Autolayout](06-Intro-To-XCode-&-Autolayout)
     - [Intro to Model-View-Controller Architecture in iOS](07-Intro-to-MVC-iOS)
     - [Project - Tip Calculator]()
@@ -62,6 +63,6 @@ Welcome to iOS1! This class introduces you the basics of iOS development. We wil
 
 To pass the course, students will have:
 
-    1. Completed all challenges.
+    1. Completed and turned in all challenges.
     2. Demonstrate clear understanding of Swift(variables, constants, functions, control flow, value vs reference types, communication patterns), object oriented & protocol oriented programming, mvc, basic xcode/interface builder.
     
