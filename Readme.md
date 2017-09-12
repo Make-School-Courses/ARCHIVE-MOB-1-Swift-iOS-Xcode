@@ -23,6 +23,7 @@ Welcome to iOS1! This class introduces you the basics of iOS development. We wil
 
 - Tip Calculator
 - Mood Tracker
+- Tic Tac Toe
 - Custom Project
 
 ## Course Schedule
