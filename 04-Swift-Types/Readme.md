@@ -18,6 +18,7 @@ Download and go through:
 
 [Swift Playgrounds - Enums & Pattern Matching](enums.playground)
 
+[Slides - Swift Types](swift-types.key)
 
 ## Swift Types - Enums, Structs, Classes, Protocols
 
