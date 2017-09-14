@@ -1,6 +1,7 @@
 # Swift Types
 
 ## Objectives
+
 - Identify Swift types
 - Discuss the value and use of types
 - Use Swift's types to model/structure your code efficiently
@@ -19,6 +20,12 @@ Download and go through:
 [Swift Playgrounds - Enums & Pattern Matching](enums.playground)
 
 [Slides - Swift Types](swift-types.key)
+
+Read:
+
+[Apple Documentaton - Types](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Types.html)
+
+[Apple Documentation on Value and Reference Types](https://developer.apple.com/swift/blog/?id=10)
 
 ## Swift Types - Enums, Structs, Classes, Protocols
 
@@ -82,8 +89,6 @@ var square: (Int) -> Int = { number in
 In this example, we store the closure inside a variable, square.
 
 square(5)
-
-## Operators
 
 ## Review
 
