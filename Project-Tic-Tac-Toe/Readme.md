@@ -4,7 +4,7 @@ Today, we are starting a new project in class: A TicTacToe game. In this project
 
 With this project, once again, we particularly focus on a proper implementation of the MVC architecture! 
 
-![TicTacToe Board](./resources/tictactoe.png "TicTacToe Board")
+![TicTacToe Board](tictactoe.png)
 
 ## Building a custom UI component and adhering to MVC
 
