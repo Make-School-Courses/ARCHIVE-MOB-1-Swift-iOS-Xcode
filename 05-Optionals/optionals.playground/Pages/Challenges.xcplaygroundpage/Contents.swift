@@ -9,6 +9,7 @@
  5. Write a second version of `myNameIs` (you can call it `myNameIs2` 😑) where you use pattern matching (i.e. the `switch` statement) to get the same functionality. Test this function with `maybePerson1` and `maybePerson2`, too.
  
  */
+
 class Person {
   let name: String
   init(name: String) {
