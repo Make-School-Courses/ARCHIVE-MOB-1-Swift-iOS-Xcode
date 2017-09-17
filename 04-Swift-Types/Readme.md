@@ -5,6 +5,7 @@
 - Identify Swift types
 - Discuss the value and use of types
 - Use Swift's types to model/structure your code efficiently
+- Understand the difference between value and reference types
 
 ## Vocabulary 
 
