@@ -9,6 +9,12 @@ import Foundation
      }
  
  However, because they are such an essential construct to Swift as a whole, we get special syntax to access the contents of an `Optional` and to interact with them in general.
+ 
+ 
+ You can think of an Optional as a box that can hold anything you put in it.
+ The box can have items in it, or nothing.
+ In the case it has items, we can access the items in the box from the *.some* case in the enum.
+ If the box has nothing, we get *.none*
  */
 
 // these two variable definitions are 100% equivalent
