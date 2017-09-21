@@ -11,6 +11,11 @@
 - Constraints
 - Frame
 - UIView
+- Origin
+- Child view
+- Superview
+- Center
+- Position(x, y)
 
 ## Constraints
 
