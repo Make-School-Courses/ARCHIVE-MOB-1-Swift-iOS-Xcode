@@ -9,7 +9,8 @@
 ## Vocabulary
 
 - Constraints
-- StackViews
+- Frame
+- UIView
 
 ## Constraints
 
