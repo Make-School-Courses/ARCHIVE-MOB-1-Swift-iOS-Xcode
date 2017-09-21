@@ -36,7 +36,6 @@ Welcome to iOS1! This class introduces you the basics of iOS development. We wil
 
 - #### Week 2
     - [Optionals](05-Optionals)
-    - [Memory Management in Swift](06-Memory-Management)
     - [Intro to XCode & Autolayout](07-Intro-To-XCode-&-Autolayout)
     - [Intro to Model-View-Controller Architecture in iOS](08-Intro-to-MVC-iOS)
     - [Project - Tip Calculator](Project-Tip-Calculator)
@@ -45,6 +44,7 @@ Welcome to iOS1! This class introduces you the basics of iOS development. We wil
     - [Communication Patterns - Delegates](09-Communication-Patterns-Delegates)
     - [Communication Patterns - Callbacks](10-Communication-Patterns-Callbacks)
     - [Communication Patterns - Notifications](11-Communication-Patterns-Notifications)
+    - [Memory Management in Swift](06-Memory-Management)
     - [Project - Mood Tracker](Project-Mood-Tracker)
     
 - #### Week 4

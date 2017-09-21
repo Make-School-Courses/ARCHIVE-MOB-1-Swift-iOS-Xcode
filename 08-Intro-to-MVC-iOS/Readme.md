@@ -6,8 +6,7 @@
 
 ## Vocabulary
 
-- MVC
-
+- Model-View-Controller (MVC)
 
 
 ## Model View Controller
