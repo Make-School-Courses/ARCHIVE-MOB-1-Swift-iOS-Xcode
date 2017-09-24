@@ -43,28 +43,26 @@ Welcome to iOS1! This class introduces you the basics of iOS development. We wil
 - #### Week 3
     - [Communication Patterns - Delegates](09-Communication-Patterns-Delegates)
     - [Communication Patterns - Callbacks](10-Communication-Patterns-Callbacks)
-    - [Communication Patterns - Notifications](11-Communication-Patterns-Notifications)
-    - [Memory Management in Swift](06-Memory-Management)
     - [Project - Mood Tracker](Project-Mood-Tracker)
     
 - #### Week 4
-    - [Intro to Object Oriented Programming](05-Intro-to-object-oriented-programming)
-    - [Object Oriented Programming - Inheritance](06-OOP-Inheritance)
-    - [Object Oriented Programming - Encapsulation, Access Control](06-OOP-Encapsulation)
-    - [Project - Tic Tac Toe](Project-Tic-Tac-Toe)
+    - [Communication Patterns - Notifications](11-Communication-Patterns-Notifications)
+    - [Memory Management in Swift](06-Memory-Management)
     
 - #### Week 5
+    - [Object Oriented Programming - Inheritance](06-OOP-Inheritance)
+    - [Object Oriented Programming - Encapsulation, Access Control](06-OOP-Encapsulation)
     - [Object Oriented Programming - Method Overloading](06-Method-Overloading)
     - [Object Oriented Programming - Polymorphism](06-OOP-Polymorphism)
-    - [Project - Custom Project - Week 5-6](Custom-Project)
+    - [Project - Tic Tac Toe](Project-Tic-Tac-Toe)
     
 - #### Week 6
-    - [Project - Custom Project - Week 5-6](Custom-Project)
+    - [Project - Custom Project](Custom-Project)
     
 ## Evaluations
 
 To pass the course, students will have:
 
     1. Completed and turned in all challenges.
-    2. Demonstrate clear understanding of Swift(variables, constants, functions, control flow, value vs reference types, communication patterns), object oriented & protocol oriented programming, mvc, basic xcode/interface builder.
+    2. Demonstrate clear understanding of Swift(variables, constants, functions, control flow, value vs reference types, communication patterns), object oriented & protocol oriented programming, mvc, basic xcode/interface builder, basic autolayout.
     

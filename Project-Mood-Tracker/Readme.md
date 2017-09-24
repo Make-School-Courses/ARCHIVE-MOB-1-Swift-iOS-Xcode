@@ -12,6 +12,9 @@ You should be able to:
 
 - [x] Add friends one at a time to a UITableView
 - [x] Tap on a friend in the UITableView and set the mood of a friend
+
+Bonus:
+
 - [x] Delete a friend
 
 

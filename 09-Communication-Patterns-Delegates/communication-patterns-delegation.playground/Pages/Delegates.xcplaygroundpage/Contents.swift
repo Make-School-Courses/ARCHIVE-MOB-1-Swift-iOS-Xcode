@@ -8,12 +8,7 @@ import PlaygroundSupport
  Delegation is one-to-one, which means that only two participants can engage in delegation
  */
 
-protocol TapDetectionDelegate: class {
-    func didTapCircle(at: CGPoint)
-}
-
 /*:
-We can constrain protocols to classes were we are only going to use this protocol on classes
  
  When creating a delegate, we only want a blueprint of the contract; functions that describe what information is being passed from the delegate
 */
@@ -53,7 +48,7 @@ class BusControlCenter: BusStopDelegate {
 let bus = Bus()
 let controlCenter = BusControlCenter()
 
-//:  ### Setting the bus's delegate to be the bus control center, which conform to the BusStopDelegate
+//:  ### Setting the bus's delegate to be the bus control center, which conforms to the BusStopDelegate
 bus.delegate = controlCenter
 
 // Let the bus take off
@@ -65,6 +60,14 @@ bus.reachedDestination()
 
 //: ![Delegation](delegation.png)
 
+
+/*:
+ ### **Note**
+ 
+ We declare the delegate as *weak* because of some issues with creating a retain cycle, a common problem when using delegates.
+
+   We will learn about dealing with this in the next lessons
+*/
 
 //: [Next Topic](@next)
 
