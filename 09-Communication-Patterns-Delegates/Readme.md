@@ -19,4 +19,5 @@ Download and go through:
 
 ## Resources
 
+[UITableViews - Delegation](https://developer.apple.com/documentation/uikit/uitableview)
 [Apple Documention - Delegation](https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/Delegation.html)
