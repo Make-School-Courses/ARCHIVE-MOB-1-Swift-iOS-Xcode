@@ -11,7 +11,6 @@ import Foundation
  an actual implementation of those requirements. Any type that satisfies the 
  requirements of a protocol is said to conform to that protocol.
 
- 
  ## Defining and conforming to a Protocol
  
 */
@@ -80,7 +79,7 @@ struct Amphibian: Vertibrates, CanSwim {}
  
  Protocols on their own do not have any functionality, they define contracts
  that an conformer must adhere to. To add functionality to a protocol, we can
- extent it.
+ extend it.
  
  */
 
@@ -115,8 +114,17 @@ extension Character where Self == Henchman {
     }
 }
 
+let hero  = Hero(health: 100, strenght: 100, aim: 100)
+
+//: We can cast our hero to a character since a Hero is a Character (from protocol conformance)
+let char =  hero as Character
+
+//: We cannot change the strenght of a Character because its specified at get only
+//char.strenght = 100
+
 let stormtropper = Henchman(health: 100, aim: -100)
 stormtropper.strenght
+
 
 /*:
  

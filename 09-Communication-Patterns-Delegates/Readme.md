@@ -15,7 +15,7 @@
 
 Download and go through:
 
-[Protocols and Delegation Playgrounds](communication-patterns-delegation.playground)
+[Protocols and Delegation Playgrounds](communication-patterns-delegation.zip)
 
 ## Resources
 
