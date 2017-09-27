@@ -6,5 +6,14 @@
 - Practice creating your own notifications
 - Learn when to use notifications
 
-## Mechanism vs Pattern
 
+## Class Materials:
+
+Download:
+
+[Notifications Playground](notifications.zip)
+
+
+Slides:
+
+[Notifications Slides](notification-slides.key)

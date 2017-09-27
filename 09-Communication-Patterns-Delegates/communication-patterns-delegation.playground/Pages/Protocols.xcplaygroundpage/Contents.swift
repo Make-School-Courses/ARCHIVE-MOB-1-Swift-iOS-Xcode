@@ -212,7 +212,8 @@ describe(item: Ostrich())
  ## Challenges
  
  1. a. Create a model of a car, it should have a max speed, number of wheels, doors and model properties.
-    b. Generalize the car, create a model for a vehicle which will represent all vehicles, a truck, motocycle & bus are vehicles
+    b. Generalize the car, create a model for a vehicle which will represent all vehicles, a truck, motorcycle & bus are vehicles
+    c. Create a model(struct or class or enum) an instances of truck, motorcycle and bus
  
  2.
  */

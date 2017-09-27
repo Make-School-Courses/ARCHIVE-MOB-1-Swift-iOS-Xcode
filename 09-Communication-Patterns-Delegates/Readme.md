@@ -10,6 +10,8 @@
 - Property
 - Delegation
 - Getter/Setter
+- Protocol
+- Inherit
 
 ## Class Materials
 
