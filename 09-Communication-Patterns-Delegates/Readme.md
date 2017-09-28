@@ -21,8 +21,12 @@ Download and go through:
 
 Slides:
 
-[Protocols and Delgation Slides](communication-patterns.key)
+[Protocols and Delegation Slides](communication-patterns.key)
 
+
+## Challenges
+
+[DelegationExercise](https://github.com/Product-College-Labs/DelegationExercise)
 
 ## Resources
 

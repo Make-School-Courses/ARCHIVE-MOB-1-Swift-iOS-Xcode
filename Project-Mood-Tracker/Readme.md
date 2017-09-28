@@ -6,6 +6,8 @@ Think of the communication pattern lessons when building this project.
 
 **HINT**: You might need to create a few data models
 
+There is no persistence requirement for this project, if you close the app, its ok for the list of friends to disapear.
+
 ## Requirements
 
 You should be able to:
