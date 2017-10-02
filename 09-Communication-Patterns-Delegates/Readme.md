@@ -9,24 +9,23 @@
 
 - Property
 - Delegation
-- Getter/Setter
-- Protocol
-- Inherit
+- One-to-one
+- One-to-many
 
 ## Class Materials
 
 Download and go through:
 
-[Protocols and Delegation Playgrounds](communication-patterns-delegation.zip)
+[Delegation Playgrounds](communication-patterns-delegation.zip)
 
 Slides:
 
-[Protocols and Delegation Slides](communication-patterns.key)
+[Delegation Slides](communication-patterns.key)
 
 
 ## Challenges
 
-[DelegationExercise](https://github.com/Product-College-Labs/DelegationExercise)
+[Who's that Pokemon - Delegation](https://github.com/Product-College-Labs/DelegationExercise)
 
 ## Resources
 

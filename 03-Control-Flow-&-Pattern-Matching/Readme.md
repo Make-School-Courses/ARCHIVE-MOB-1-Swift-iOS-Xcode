@@ -12,7 +12,6 @@ Go through:
 
 [Swift Playgrounds - Conditionals](conditionals.playground)
 
-
 ## Challenges
 
 1. Finish the challenges in the Swift playgrounds

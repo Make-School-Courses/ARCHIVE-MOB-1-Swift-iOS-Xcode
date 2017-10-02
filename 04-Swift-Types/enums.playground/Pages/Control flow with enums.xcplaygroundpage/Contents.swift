@@ -11,7 +11,7 @@
  A custom type `Person` that looks like this
  ```
  struct Person {
-   let name: String
+ let name: String
  }
  ```
  can describe any person with any `name` (which is a `String`, so again we will have an infinite range of values for the type `Person`).
@@ -26,11 +26,11 @@
 
 // better model: we have exactly 5 Coursees in the first quarter that are known upfront; now the compiler will only allow valid coursees to be created
 enum FirstQuarterTechnicalCourse {
-  case python
-  case frontend
-  case ruby
-  case ios_advanced
-  case ios_accelerated
+    case python
+    case frontend
+    case ruby
+    case iosAdvanced
+    case iosAccelerated
 }
 
 // creating enum values requires an explicit type annonation of the enum's type
@@ -40,23 +40,23 @@ let course2: FirstQuarterTechnicalCourse = .frontend
 
 // you can do regular comparisons with enums using if:
 if course1 == course2 {
-  print("these two are the same")
+    print("these two are the same")
 }
 else {
-  print("these two are different")
+    print("these two are different")
 }
 
 // but what's even better to use a switch statement and do pattern matching:
 func getCourseName(course: FirstQuarterTechnicalCourse) -> String {
-  var courseName: String
-  switch course {
-  case .python: courseName = "Back-end Web: API Services with Python & Flask"
-  case .frontend: courseName = "Front-end Web: Interactive Websites with JavaScript"
-  case .ruby: courseName = "Full-stack development with Ruby"
-  case .ios_advanced: courseName = "Advanced Topics in iOS & Swift"
-  case .ios_accelerated: courseName = "Mobile Apps with iOS & Swift"
-  }
-  return courseName
+    var courseName: String
+    switch course {
+    case .python: courseName = "Back-end Web: API Services with Python & Flask"
+    case .frontend: courseName = "Front-end Web: Interactive Websites with JavaScript"
+    case .ruby: courseName = "Full-stack development with Ruby"
+    case .iosAdvanced: courseName = "Advanced Topics in iOS & Swift"
+    case .iosAccelerated: courseName = "Mobile Apps with iOS & Swift"
+    }
+    return courseName
 }
 
 let courseNameForCourse1 = getCourseName(course: course1)
@@ -64,21 +64,21 @@ print("The course is called: \(courseNameForCourse1)")
 
 // switch statements can also bundle multiple cases
 func getCourseType(course: FirstQuarterTechnicalCourse) -> String {
-  var courseType: String
-  switch course {
+    var courseType: String
+    switch course {
     case .python, .frontend, .ruby: courseType = "Web"
-    case .ios_accelerated, .ios_advanced: courseType = "Mobile"
-  }
-  return courseType
+    case .iosAccelerated, .iosAdvanced: courseType = "Mobile"
+    }
+    return courseType
 }
 let courseTypeForCourse1 = getCourseType(course: course1)
 print("The course is of type: \(courseTypeForCourse1)")
 
 func isMobileCourse(course: FirstQuarterTechnicalCourse) -> Bool {
-  switch course {
-  case .ios_advanced, .ios_accelerated: return true
-  default: return false
-  }
+    switch course {
+    case .iosAdvanced, .iosAccelerated: return true
+    default: return false
+    }
 }
 
 let isMobile = isMobileCourse(course: course1)
@@ -88,10 +88,14 @@ print("The course is a mobile course: \(isMobile)")
 /*:
  ### Challenges
  
- 1. Model a type called `Weekday` that represents the different days of the week.
- 2. Write a function called `getWeekdayName` that takes a `Weekday` returns the name of each weekday as a `String`, e.g.: `"This weekday is called Sunday."`
- 3. Write a function called `isItFinallyWeekend` that takes a `Weekday` and returns a `String` indicating whether the argument is a weekend weekday, e.g.: `"Monday is a regular workday."` or `"Wuhuuuu, it's SATURDAYYYYYYYY."`
+ 1.
+ a. Model a type called `Weekday` that represents the different days of the week.
+ 
+ b. Write a function called `getWeekdayName` that takes a `Weekday` returns the name of each weekday as a `String`, e.g.: `"This weekday is called Sunday."`
+ 
+ c. Write a function called `isItFinallyWeekend` that takes a `Weekday` and returns a `String` indicating whether the argument is a weekend weekday, e.g.: `"Monday is a regular workday."` or `"Wuhuuuu, it's SATURDAYYYYYYYY."`
+ 
  */
 
 
-
+//: [Next](@next)

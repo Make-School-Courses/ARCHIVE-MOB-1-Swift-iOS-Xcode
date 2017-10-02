@@ -41,11 +41,12 @@ Welcome to iOS1! This class introduces you the basics of iOS development. We wil
     - [Project - Tip Calculator](Project-Tip-Calculator)
 
 - #### Week 3
+    - [Protocol Oriented Programming](09-Protocol-Oriented-Programming)
     - [Communication Patterns - Delegates](09-Communication-Patterns-Delegates)
-    - [Communication Patterns - Callbacks](10-Communication-Patterns-Callbacks)
     - [Project - Mood Tracker](Project-Mood-Tracker)
     
 - #### Week 4
+    - [Communication Patterns - Callbacks](10-Communication-Patterns-Callbacks)
     - [Communication Patterns - Notifications](11-Communication-Patterns-Notifications)
     - [Memory Management in Swift](06-Memory-Management)
     

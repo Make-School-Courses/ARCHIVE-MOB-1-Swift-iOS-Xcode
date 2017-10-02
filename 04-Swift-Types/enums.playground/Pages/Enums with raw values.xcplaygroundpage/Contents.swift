@@ -54,55 +54,10 @@ Weekday2.monday.rawValue
  3. Model a type called `Month` using an `enum`. That type should represent all the different months in one year. 
  4. Write a function that returns a `String` and indicates at which position this month is inside a year, e.g.: `March is the 3rd month of the year`.
  */
-enum CardinalDirection: String{
-  case north = "↑"
-  case northeast = "↑→"
-  case northwest = "↑←"
-  case east = "→"
-  case west = "←"
-}
-
-func help(direction: CardinalDirection) -> String {
-  let directionHome = direction.rawValue
-  let answer = "Go \(directionHome) by in order to arrive home."
-  
-  switch direction {
-  default:
-    return answer
-  }
-}
-
-print(help(direction: CardinalDirection.west))
-print(help(direction: CardinalDirection.northeast))
-
-enum Month: String {
-  case january = "1st"
-  case february = "2nd"
-  case march = "3rd"
-  case april = "4th"
-  case may = "5th"
-  case june = "6th"
-  case july = "7th"
-  case august = "8th"
-  case september = "9th"
-  case october = "10th"
-  case november = "11th"
-  case december = "12th"
-}
-
-func positionOfTheyYear (month: Month) -> String{
-  let capitalMonth = "\(month)".capitalized
-  let position = month.rawValue
-  let answer = "\(capitalMonth) is the \(position) month of the year."
-  
-  return answer
-}
-
-print(positionOfTheyYear(month: Month.january))
 
 
 
-
+//: [Next](@next)
 
 
 
