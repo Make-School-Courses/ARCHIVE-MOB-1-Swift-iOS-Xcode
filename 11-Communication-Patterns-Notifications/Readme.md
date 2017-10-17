@@ -13,7 +13,6 @@ Download:
 
 [Notifications Playground](notifications.zip)
 
+<!--Slides:-->
 
-Slides:
-
-[Notifications Slides](notification-slides.key)
+<!--[Notifications Slides](notification-slides.key)-->

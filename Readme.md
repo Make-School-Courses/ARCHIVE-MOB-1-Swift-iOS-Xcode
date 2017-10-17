@@ -51,7 +51,7 @@ Welcome to iOS1! This class introduces you the basics of iOS development. We wil
     - [Memory Management in Swift](06-Memory-Management)
     
 - #### Week 5
-    - [Object Oriented Programming - Inheritance](06-OOP-Inheritance)
+    - [Object Oriented Programming - Inheritance](12-OOP-Inheritance)
     - [Object Oriented Programming - Encapsulation, Access Control](06-OOP-Encapsulation)
     - [Object Oriented Programming - Method Overloading](06-Method-Overloading)
     - [Object Oriented Programming - Polymorphism](06-OOP-Polymorphism)

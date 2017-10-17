@@ -12,13 +12,39 @@
 func sumOfDigits(a: Int) -> Int {
   return String(a).characters.flatMap{Int(String($0))}.reduce(0, +)
 }
+
 sumOfDigits(a: 123) // 6
+
+//func doesApply(a: Int, b: Int, myFunction: (Int, Int) -> Bool) -> Bool {
+//    return myFunction(a, b)
+//}
+//
+//func areBothDivisibleByThree(a: Int, b: Int) -> Bool {
+//    return (a % 3) == 0 && (b % 3) == 0 ? true : false
+//}
+//
+//areBothDivisibleByThree(a: 2, b: 3)
+//
+//doesApply(a: 47685, b: 344832, myFunction: areBothDivisibleByThree)
+
+
+func doesApply(a: Int, b: Int, myFunction: (Int, Int) -> Bool) -> Bool {
+    return myFunction(a, b)
+}
+
+func areBothDivisibleByThree(a: Int, b: Int) -> Bool {
+
+    return (a % 3) == 0 && (b % 3) == 0 ? true : false
+}
+
+doesApply(a: 47685, b: 344832, myFunction: areBothDivisibleByThree)
 
 /*:
 
  ### Challenges:
  
  1. Write a function called `doesApply` that returns a `Bool` and takes as arguments two `Int`s as well as a _function_ which again also takes two `Int`s and returns a `Bool`.
+ 
  2. Write a function called `areBothDivisibleByThree` that takes two `Int`s as arguments and returns `true` if both are divisible by the number 3 (i.e. there is no remainder after having done the division), `false` otherwise.
  3. Use `doesApply` in combination with `areBothDivisibleByThree` to figure out whether 47685 and 344832 are both divisible by the number 3.
  4. Use `doesApply` to figure out whether 85436 and 53893 are both divisible by three but passing the third argument as a closure (so you can't use the previously defined `areBothDivisibleByThree` any more).

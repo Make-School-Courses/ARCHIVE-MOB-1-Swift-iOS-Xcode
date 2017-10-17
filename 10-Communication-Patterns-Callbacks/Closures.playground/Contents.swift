@@ -9,6 +9,7 @@ PlaygroundPage.current.needsIndefiniteExecution = true
 
 //: ## 1) add function, adds two numbers a and b
 // (Int, Int) -> Int
+
 func add(a: Int, b: Int) -> Int {
     return a + b
 }
@@ -42,10 +43,12 @@ transformNumber(a: 4, operand: { (a: Int) -> Int in
     return  a * 2
 })
 
-transformNumber(a: 3, operand: { $0 * 3 } )
 transformNumber(a: 3) { (x: Int) -> Int in
     return x / 2
 }
+
+transformNumber(a: 3, operand: { $0 * 3 } )
+
 
 
 
