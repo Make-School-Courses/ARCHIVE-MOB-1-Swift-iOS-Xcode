@@ -12,12 +12,18 @@ Welcome to iOS1! This class introduces you the basics of iOS development. We wil
 
 ## Competencies
 
+At the end of the course students should be able to:
+
 - Write working Swift code
-- Make use of the delegate design pattern, including creating their own
-- Student use callbacks in their code
-- Should be able to Xcode’s debugging tools
-- Should be able to setup basic constraints with interface builder
-- Should be apply to apply the MVC pattern in their apps
+- Make use of the delegate design pattern, including creating their own delegates
+- Explain callbacks, and provide an example of what they are used for in iOS Development.  
+- Identify opportunities for creating their own delegates, and make use of the Delegation pattern to solve problems in their app. 
+- Use Xcode’s debugging tools to identify and solve problems in their app. 
+- Design and create basic constraints with Interface Builder. 
+- Explain the Model-View-Controller design pattern, and make use of it in their app.  
+- Write code with Object Oriented Programming in Swift.
+- Explain memory management in Swift and identify and break retain cycles.
+
 
 ## Projects
 

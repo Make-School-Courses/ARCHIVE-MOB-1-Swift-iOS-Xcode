@@ -26,6 +26,9 @@ Read:
 [Apple Documentation - Memory Mangement in Swift](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/AutomaticReferenceCounting.html)
 
 
+Playgrounds:
+
+[ARC Playground](arc.zip)
 
 
 
