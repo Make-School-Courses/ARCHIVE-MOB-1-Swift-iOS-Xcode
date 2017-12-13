@@ -24,7 +24,6 @@ At the end of the course students should be able to:
 - Write code with Object Oriented Programming in Swift.
 - Explain memory management in Swift and identify and break retain cycles.
 
-
 ## Projects
 
 - [Tip Calculator](Project-Tip-Calculator)
@@ -50,26 +49,26 @@ At the end of the course students should be able to:
     - [Protocol Oriented Programming](09-Protocol-Oriented-Programming)
     - [Communication Patterns - Delegates](09-Communication-Patterns-Delegates)
     - [Project - Mood Tracker](Project-Mood-Tracker)
-    
+
 - #### Week 4
     - [Communication Patterns - Callbacks](10-Communication-Patterns-Callbacks)
     - [Communication Patterns - Notifications](11-Communication-Patterns-Notifications)
     - [Memory Management in Swift](06-Memory-Management)
-    
+
 - #### Week 5
     - [Object Oriented Programming - Inheritance](12-OOP-Inheritance)
     - [Object Oriented Programming - Encapsulation, Access Control](06-OOP-Encapsulation)
     - [Object Oriented Programming - Method Overloading](06-Method-Overloading)
     - [Object Oriented Programming - Polymorphism](06-OOP-Polymorphism)
     - [Project - Tic Tac Toe](Project-Tic-Tac-Toe)
-    
+
 - #### Week 6
     - [Project - Custom Project](Custom-Project)
-    
+
 ## Evaluations
 
 To pass the course, students will have:
 
     1. Completed and turned in all challenges.
-    2. Demonstrate clear understanding of Swift(variables, constants, functions, control flow, value vs reference types, communication patterns), object oriented & protocol oriented programming, mvc, basic xcode/interface builder, basic autolayout.
-    
+    2. Demonstrate clear understanding of Swift (variables, constants, functions, control flow, value vs reference types, communication patterns), object oriented & protocol oriented programming, mvc, basic
+    Xcode/interface builder, basic autolayout.
